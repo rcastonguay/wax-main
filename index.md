@@ -3,7 +3,7 @@ layout: page
 show_title: false
 banner:
   collection: new-haven-pics
-  pid: IMG_0381
+  pid: img_0381
   y: 25%
   height: '500px'
 ---
