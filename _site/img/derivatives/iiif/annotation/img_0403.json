@@ -1,0 +1,19 @@
+{
+  "@type": "oa:Annotation",
+  "@id": "https://rcastonguay.github.io/wax-main/img/derivatives/iiif/annotation/img_0403.json",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0403/full/full/0/default.jpg",
+    "@type": "dcterms:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0403",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 1600,
+    "height": 1200
+  },
+  "on": "https://rcastonguay.github.io/wax-main/img/derivatives/iiif/canvas/img_0403.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

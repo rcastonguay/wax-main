@@ -1,0 +1,63 @@
+I"â#<p><strong>Wax</strong> is a <a href="http://go-dh.github.io/mincomp/">minimal computing</a> project for producing digital exhibitions focused on longevity, low costs, and flexibility. Our underlying technology is made to learn and to teach, and can produce beautifully rendered, high-quality image collections and scholarly exhibits. To start using Wax, please see our <a href="https://minicomp.github.io/wiki/#/wax/">documentation</a> for installation instructions and more.</p>
+
+<p>The collection items in this demo are from The Museum of Islamic Art, Qatar, (courtesy of <a href="https://commons.wikimedia.org/wiki/Category:Google_Art_Project_works_in_The_Museum_of_Islamic_Art,_Qatar">WikiMedia</a> and <a href="https://www.google.com/culturalinstitute/about/artproject/">Google Art Project</a>) and The Qatar National Library (via <a href="https://www.wdl.org/en/">World Digital Library</a>).</p>
+
+<h3 id="browse-the-collection">Browse the Collection</h3>
+
+<div id="wax-gallery-new-haven-pics-container" class="wax-gallery-container full-width">
+  <div class="wax-inline-container">
+    <div id="new-haven-pics-facet-buttons" class="facet-buttons"></div>
+    <div id="wax-gallery-new-haven-pics" class="wax-gallery"></div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+    var container = $('#wax-gallery-new-haven-pics-container');
+    var gallery = $('#wax-gallery-new-haven-pics');
+    var buttonDiv = $('#new-haven-pics-facet-buttons');
+
+    
+      gallery.append("<div class='gallery-item photograph all'><a href='https://rcastonguay.github.io/wax-main/new-haven-pics/img_0377/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0377/full/250,/0/default.jpg' alt='Graduate School'/><div class='overlay'><p class='info'>Graduate School</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item photograph all'><a href='https://rcastonguay.github.io/wax-main/new-haven-pics/img_0381/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0381/full/250,/0/default.jpg' alt='East Rock Park'/><div class='overlay'><p class='info'>East Rock Park</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item photograph all'><a href='https://rcastonguay.github.io/wax-main/new-haven-pics/img_0384/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0384/full/250,/0/default.jpg' alt='Red Muscle Car'/><div class='overlay'><p class='info'>Red Muscle Car</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item photograph all'><a href='https://rcastonguay.github.io/wax-main/new-haven-pics/img_0385/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0385/full/250,/0/default.jpg' alt='Backyard'/><div class='overlay'><p class='info'>Backyard</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item photograph all'><a href='https://rcastonguay.github.io/wax-main/new-haven-pics/img_0391/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0391/full/250,/0/default.jpg' alt='East Rock Mountain'/><div class='overlay'><p class='info'>East Rock Mountain</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item photograph all'><a href='https://rcastonguay.github.io/wax-main/new-haven-pics/img_0403/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0403/full/250,/0/default.jpg' alt='Schwarzman Center aka Woolsey Hall'/><div class='overlay'><p class='info'>Schwarzman Center aka Woolsey Hall</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item photograph all'><a href='https://rcastonguay.github.io/wax-main/new-haven-pics/img_0405/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0405/full/250,/0/default.jpg' alt='Electric Utility Van'/><div class='overlay'><p class='info'>Electric Utility Van</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item photograph all'><a href='https://rcastonguay.github.io/wax-main/new-haven-pics/img_0422/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0422/full/250,/0/default.jpg' alt='Vladimir Horowitz - Head and Hands'/><div class='overlay'><p class='info'>Vladimir Horowitz - Head and Hands</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item photograph all'><a href='https://rcastonguay.github.io/wax-main/new-haven-pics/img_0426/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0426/full/250,/0/default.jpg' alt='Cup of Coffee'/><div class='overlay'><p class='info'>Cup of Coffee</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item photograph all'><a href='https://rcastonguay.github.io/wax-main/new-haven-pics/img_0432/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0432/full/250,/0/default.jpg' alt='Fallen Tree and Car'/><div class='overlay'><p class='info'>Fallen Tree and Car</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item photograph all'><a href='https://rcastonguay.github.io/wax-main/new-haven-pics/img_0439/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0439/full/250,/0/default.jpg' alt='Interior of House with paintings'/><div class='overlay'><p class='info'>Interior of House with paintings</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item photograph all'><a href='https://rcastonguay.github.io/wax-main/new-haven-pics/img_0456/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0456/full/250,/0/default.jpg' alt='Roof of Strerling Library'/><div class='overlay'><p class='info'>Roof of Strerling Library</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item photograph all'><a href='https://rcastonguay.github.io/wax-main/new-haven-pics/img_0457/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0457/full/250,/0/default.jpg' alt='Cool red car'/><div class='overlay'><p class='info'>Cool red car</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item photograph all'><a href='https://rcastonguay.github.io/wax-main/new-haven-pics/img_3592/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_3592/full/250,/0/default.jpg' alt='East Rock Mountain'/><div class='overlay'><p class='info'>East Rock Mountain</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item photograph all'><a href='https://rcastonguay.github.io/wax-main/new-haven-pics/img_3595/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_3595/full/250,/0/default.jpg' alt='Ducks'/><div class='overlay'><p class='info'>Ducks</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item photograph all'><a href='https://rcastonguay.github.io/wax-main/new-haven-pics/img_3597/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_3597/full/250,/0/default.jpg' alt='Forest'/><div class='overlay'><p class='info'>Forest</p></div></div></a></div>");
+      
+    
+
+    
+      
+        var facets = Array.from(new Set(['photograph', 'photograph', 'photograph', 'photograph', 'photograph', 'photograph', 'photograph', 'photograph', 'photograph', 'photograph', 'photograph', 'photograph', 'photograph', 'photograph', 'photograph', 'photograph']));
+        buttonDiv.append("<button class='btn facet active' data-filter='all'>show all</button>");
+
+        for (i in facets) {
+          buttonDiv.append(`<button class='btn facet' data-filter='${facets[i]}'>${facets[i]}</button>`);
+        }
+
+        $(document).ready(function(){
+          $(".facet").click(function(){
+            var filterValue = $(this).attr('data-filter');
+            $('.facet').removeClass('active');
+            $(this).addClass('active');
+            if(filterValue == 'all') { $('.all').show('slow'); }
+            else { $('.all').hide('slow'); $(`.${filterValue}`).show('slow'); }
+          });
+        });
+      
+    
+  });
+</script>
+
+:ET

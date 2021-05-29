@@ -1,0 +1,35 @@
+{
+  "@id": "https://rcastonguay.github.io/wax-main/img/derivatives/iiif/sequence/img_0381.json",
+  "@type": "sc:Sequence",
+  "canvases": [
+    {
+      "@type": "sc:Canvas",
+      "@id": "https://rcastonguay.github.io/wax-main/img/derivatives/iiif/canvas/img_0381.json",
+      "label": "front",
+      "width": 1600,
+      "height": 1200,
+      "thumbnail": "https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0381/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "https://rcastonguay.github.io/wax-main/img/derivatives/iiif/annotation/img_0381.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0381/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://rcastonguay.github.io/wax-main/img/derivatives/iiif/images/img_0381",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 1600,
+            "height": 1200
+          },
+          "on": "https://rcastonguay.github.io/wax-main/img/derivatives/iiif/canvas/img_0381.json"
+        }
+      ]
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}
